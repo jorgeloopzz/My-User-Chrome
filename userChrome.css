@@ -11,3 +11,25 @@
 .tab-icon-image[src="chrome://branding/content/icon32.png"] {
     content: url("foxlogo.svg")!important;
 }
+/*
+ -- Tabs --
+*/
+
+/* Remove close button */
+.tab-close-button {
+	display: none;
+}
+
+/* Favicon of new page */
+.tab-icon-image[src="chrome://branding/content/icon32.png"] {
+	content: url("foxlogo.svg")!important;
+}
+
+/* Disable shadows of the tabs */
+.tabbrowser-tab:is([visuallyselected="true"], [multiselected])>.tab-stack>.tab-background {
+    box-shadow: none !important;
+}
+.tab-label {
+    text-shadow: none !important
+}
+
