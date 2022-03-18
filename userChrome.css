@@ -1,0 +1,13 @@
+/*
+ -- Tabs --
+*/
+
+/* Remove close button */
+.tab-close-button {
+	display: none;
+}
+
+/* Favicon of new page */
+.tab-icon-image[src="chrome://branding/content/icon32.png"] {
+    content: url("foxlogo.svg")!important;
+}
