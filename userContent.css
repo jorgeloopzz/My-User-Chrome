@@ -1,5 +1,16 @@
+/* Remove scrollbar */
+:root {
+  scrollbar-width: none !important;
+}
+
+@-moz-document url(about:privatebrowsing) {
+  :root {
+    scrollbar-width: none !important;
+  }
+}
+
+/* New tab page */
 @-moz-document url('about:home'), url('about:newtab'),url(about:privatebrowsing) {
-  /* New tab page */
   .logo-and-wordmark .logo {
     background: url("icons/foxlogo.svg") no-repeat !important;
     background-size: cover !important;
