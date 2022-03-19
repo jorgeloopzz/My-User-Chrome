@@ -12,11 +12,12 @@
 /* New tab page */
 @-moz-document url('about:home'), url('about:newtab'),url(about:privatebrowsing) {
   .logo-and-wordmark .logo {
-    background: url("icons/foxlogo.svg") no-repeat !important;
-    background-size: cover !important;
     display: inline-block !important;
   }
+
   .logo {
+    background: url("icons/foxlogo.svg") no-repeat !important;
+    background-size: cover !important;
     height: 75px !important;
     width: 75px !important;
   }
@@ -31,3 +32,4 @@
     display: none !important;
   }
 }
+
