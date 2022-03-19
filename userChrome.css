@@ -1,6 +1,5 @@
-
 /*
--- Tabs --
+ -- Tabs --
 */
 
 /* Remove close button */
@@ -16,13 +15,16 @@
 
 /* Disable shadows of the tabs */
 .tabbrowser-tab:is([visuallyselected="true"], [multiselected])
-> .tab-stack
-> .tab-background {
+  > .tab-stack
+  > .tab-background {
   box-shadow: none !important;
 }
 
 .tab-label {
   text-shadow: none !important;
+  font-family: CaskaydiaCove Nerd Font;
+  font-style: italic;
+  font-size: small;
 }
 
 /* Remove new tab icon */
@@ -30,8 +32,12 @@
   display: none !important;
 }
 
+#nav-bar:not([tabs-hidden="true"]) {
+  box-shadow: none;
+}
+
 /*
--- Url --
+ -- Url --
 */
 
 /* Center URL text */
@@ -43,17 +49,18 @@
   display: none;
 }
 
-/*
--- Arrow icons --
+/* 
+ -- Arrow icons --
 */
 
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
-#back-button image {    
-    list-style-image: url("icons/back.svg") !important;
+#back-button image {
+  list-style-image: url("icons/back.svg") !important;
 }
 /* forward - go button */
 #forward-button image {
-    list-style-image: url("icons/forward.svg") !important;
-    padding-inline-start: 5px !important;
+  list-style-image: url("icons/forward.svg") !important;
+  padding-inline-start: 5px !important;
 }
+
