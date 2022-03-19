@@ -1,0 +1,22 @@
+@-moz-document url('about:home'), url('about:newtab'),url(about:privatebrowsing) {
+  /* New tab page */
+  .logo-and-wordmark .logo {
+    background: url("icons/foxlogo.svg") no-repeat !important;
+    background-size: cover !important;
+    display: inline-block !important;
+  }
+  .logo {
+    height: 75px !important;
+    width: 75px !important;
+  }
+
+  /* Remove search bar */
+  .search-inner-wrapper {
+    display: none !important;
+  }
+
+  /* Remove top-right button */
+  .icon {
+    display: none !important;
+  }
+}
