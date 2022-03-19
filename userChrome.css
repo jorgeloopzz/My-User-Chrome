@@ -1,5 +1,6 @@
+
 /*
- -- Tabs --
+-- Tabs --
 */
 
 /* Remove close button */
@@ -10,13 +11,13 @@
 /* Favicon of new page */
 .tab-icon-image[src="chrome://branding/content/icon32.png"]
 {
-  content: url("foxlogo.svg") !important;
+  content: url("icons/foxlogo.svg") !important;
 }
 
 /* Disable shadows of the tabs */
 .tabbrowser-tab:is([visuallyselected="true"], [multiselected])
-  > .tab-stack
-  > .tab-background {
+> .tab-stack
+> .tab-background {
   box-shadow: none !important;
 }
 
@@ -30,7 +31,7 @@
 }
 
 /*
- -- Url --
+-- Url --
 */
 
 /* Center URL text */
@@ -42,3 +43,17 @@
   display: none;
 }
 
+/*
+-- Arrow icons --
+*/
+
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+#back-button image {    
+    list-style-image: url("icons/back.svg") !important;
+}
+/* forward - go button */
+#forward-button image {
+    list-style-image: url("icons/forward.svg") !important;
+    padding-inline-start: 5px !important;
+}
