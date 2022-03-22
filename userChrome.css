@@ -36,11 +36,6 @@
   --lwt-sidebar-background-color: var(--sfwindow) !important;
 }
 
-/* Remove close button */
-.tab-close-button {
-  display: none;
-}
-
 /* Favicon of new page */
 .tab-icon-image[src="chrome://branding/content/icon32.png"]
 {
@@ -71,7 +66,7 @@
 }
 
 /*
- -- Url --
+-- Url --
 */
 
 /* Center URL text */
@@ -79,8 +74,25 @@
   text-align: center !important;
 }
 
+#urlbar-input-container {
+  background-color: var(--sfwindow) !important;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+#urlbar-container {
+  margin-left: 0 !important;
+}
+
+#urlbar[focused="true"] > #urlbar-background {
+  box-shadow: none !important;
+}
+
+#navigator-toolbox {
+  border: none !important;
+}
+
 /* 
- -- Arrow icons --
+-- Arrow icons --
 */
 
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
@@ -92,4 +104,14 @@
 #forward-button image {
   list-style-image: url("icons/forward.svg") !important;
   padding-inline-start: 5px !important;
+}
+
+/*
+ -- Remove elements --
+*/
+
+/* Remove close button */
+.tab-close-button,
+#context-navigation {
+  display: none;
 }
