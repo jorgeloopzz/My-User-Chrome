@@ -47,6 +47,7 @@
   > .tab-stack
   > .tab-background {
   box-shadow: none !important;
+  border-bottom: solid 2px red;
 }
 
 .tab-label {
@@ -56,13 +57,14 @@
   font-size: small;
 }
 
+.tab-background {
+  border-radius: 0px 0px !important;
+  margin: 0px !important;
+}
+
 /* Remove new tab icon */
 #tabs-newtab-button {
   display: none !important;
-}
-
-#nav-bar:not([tabs-hidden="true"]) {
-  box-shadow: none;
 }
 
 /*
