@@ -1,6 +1,40 @@
 /*
+ -- Colors --
+*/
+
+:root {
+  --sfwindow: #0f0f0f;
+  --sfsecondary: #1a1110;
+}
+
+/*
  -- Tabs --
 */
+
+#tabbrowser-tabs:not([movingtab])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab
+  > .tab-stack
+  > .tab-background[multiselected="true"],
+#tabbrowser-tabs:not([movingtab])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab
+  > .tab-stack
+  > .tab-background[selected="true"] {
+  background-image: none !important;
+  background-color: var(--toolbar-bgcolor) !important;
+}
+
+/* Inactive tabs color */
+#navigator-toolbox {
+  background-color: var(--sfwindow) !important;
+}
+
+/* Window colors  */
+:root {
+  --toolbar-bgcolor: var(--sfwindow) !important;
+  --lwt-sidebar-background-color: var(--sfwindow) !important;
+}
 
 /* Remove close button */
 .tab-close-button {
@@ -59,4 +93,3 @@
   list-style-image: url("icons/forward.svg") !important;
   padding-inline-start: 5px !important;
 }
-
