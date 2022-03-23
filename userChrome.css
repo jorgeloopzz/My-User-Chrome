@@ -92,6 +92,10 @@
   border: none !important;
 }
 
+.urlbarView {
+  display: none !important;
+}
+
 /* 
 -- Arrow icons --
 */
