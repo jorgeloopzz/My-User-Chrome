@@ -87,6 +87,11 @@
   display: none !important;
 }
 
+/* Remove magnifying glass icon */
+#identity-box {
+  visibility: collapse !important;
+}
+
 /* 
 -- Arrow icons --
 */
