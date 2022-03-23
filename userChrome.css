@@ -60,11 +60,6 @@
   margin: 0px !important;
 }
 
-/* Remove new tab icon */
-#tabs-newtab-button {
-  display: none !important;
-}
-
 /*
 -- Url --
 */
@@ -112,6 +107,12 @@
 */
 
 .tab-close-button,
+#context-pocket,
+#context-selectall,
+#tracking-protection-icon-container,
+#PanelUI-button,
+#context-navigation,
+#tabs-newtab-button,
 #context-navigation {
   display: none;
 }
