@@ -4,7 +4,7 @@
 
 :root {
   --sfwindow: #222831;
-  --sfsecondary: #393E46;
+  --sfsecondary: #393e46;
 
   /* Window colors  */
   --toolbar-bgcolor: var(--sfsecondary) !important;
