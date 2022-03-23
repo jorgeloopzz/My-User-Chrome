@@ -5,6 +5,10 @@
 :root {
   --sfwindow: #191724;
   --sfsecondary: #26233a;
+
+  /* Window colors  */
+  --toolbar-bgcolor: var(--sfsecondary) !important;
+  --lwt-sidebar-background-color: var(--sfwindow) !important;
 }
 
 /*
@@ -28,12 +32,7 @@
 /* Inactive tabs color */
 #navigator-toolbox {
   background-color: var(--sfwindow) !important;
-}
-
-/* Window colors  */
-:root {
-  --toolbar-bgcolor: var(--sfsecondary) !important;
-  --lwt-sidebar-background-color: var(--sfwindow) !important;
+  border: none !important;
 }
 
 /* Favicon of new page */
@@ -88,10 +87,7 @@
   box-shadow: none !important;
 }
 
-#navigator-toolbox {
-  border: none !important;
-}
-
+/* Remove url bar panel */
 .urlbarView {
   display: none !important;
 }
@@ -115,7 +111,6 @@
  -- Remove elements --
 */
 
-/* Remove close button */
 .tab-close-button,
 #context-navigation {
   display: none;
