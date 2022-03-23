@@ -50,8 +50,8 @@
 
 .tab-label {
   text-shadow: none !important;
-  font-family: CaskaydiaCove Nerd Font;
-  font-style: italic;
+  font-family: Hack Nerd Font;
+  font-style: unset;
   font-size: small;
 }
 
