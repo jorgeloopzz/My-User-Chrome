@@ -11,6 +11,10 @@
 
 /* New tab page */
 @-moz-document url('about:home'), url('about:newtab'),url(about:privatebrowsing) {
+  body {
+    background-color: #26233a !important;
+  }
+
   .logo-and-wordmark .logo {
     display: inline-block !important;
   }
@@ -32,4 +36,3 @@
     display: none !important;
   }
 }
-
