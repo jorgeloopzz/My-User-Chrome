@@ -12,7 +12,7 @@
 /* New tab page */
 @-moz-document url('about:home'), url('about:newtab'), url('about:privatebrowsing') {
   body {
-    background-color: #26233a !important;
+    background-color: #393E46 !important;
   }
 
   .logo-and-wordmark .logo {
