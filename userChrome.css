@@ -101,10 +101,18 @@
 #back-button image {
   list-style-image: url("icons/back.svg") !important;
 }
+
+#back-button:hover image {
+  background: none !important;
+}
 /* forward - go button */
 #forward-button image {
   list-style-image: url("icons/forward.svg") !important;
   padding-inline-start: 5px !important;
+}
+
+#forward-button:hover image {
+  background: none !important;
 }
 
 /*
@@ -116,7 +124,6 @@
 #context-selectall,
 #tracking-protection-icon-container,
 #PanelUI-button,
-#context-navigation,
 #tabs-newtab-button,
 #context-navigation {
   display: none;
