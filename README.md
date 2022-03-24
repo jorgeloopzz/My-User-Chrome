@@ -23,3 +23,13 @@
   * Type `about:profiles` in URL bar and open the first Root Directory.
   * There should be a folder called `chrome`, if not, make it. With that, copy from my project the icons folder and both css files to chrome.
   * Finally to have effect, type `about:config` in URL, search `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`.
+
+<div align="center">
+
+  <a href="https://www.reddit.com/r/FirefoxCSS/">
+
+  <img src="https://img.shields.io/badge/FirefoxCSS-black?style=for-the-badge&logo=reddit">
+  
+  </a>
+
+</div>
