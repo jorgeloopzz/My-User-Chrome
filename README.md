@@ -21,8 +21,7 @@
 ### Installation
   * Download the zip and extract it or `git clone https://github.com/jorgeloopzz/My-User-Chrome.git`.
   * Type `about:profiles` in URL bar and open the first Root Directory.
-  * There should be a folder called `chrome`, if not, make it. With that, copy from my project the icons folder and both css files to chrome.
-  * Finally to have effect, type `about:config` in URL, search `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`.
+  * There should be a folder called `chrome`, if not, make it. With that, copy from my project everything except the license and readme to chrome.
 
 <div align="center">
 
