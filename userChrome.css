@@ -92,6 +92,12 @@
   visibility: collapse !important;
 }
 
+/* Remove placeholder */
+#urlbar-input::placeholder,
+.searchbar-textbox::placeholder {
+	opacity: 0 !important;
+}
+
 /* 
 -- Arrow icons --
 */
