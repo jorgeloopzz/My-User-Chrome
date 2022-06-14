@@ -24,6 +24,7 @@
   * Type `about:profiles` in URL bar and open the first Root Directory.
   * There should be a folder called `chrome`, if not, make it. With that, copy from my project everything except the license and readme to chrome.
   * To make effect, click on `Restart normally` in `about:profiles`.
+  * Install <a href="https://www.nerdfonts.com/font-downloads">Caskaydia Cove Nerd Font</a>
 
 <div align="center">
 
