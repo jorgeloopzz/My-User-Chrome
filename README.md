@@ -14,7 +14,7 @@
 
 <h3 align="center">
 
-  ![firefox](https://user-images.githubusercontent.com/80071604/159892260-8da0407c-9274-48da-85e7-8787c8413367.png)
+  ![firefox](https://user-images.githubusercontent.com/80071604/174143710-fd1211a5-67fe-4745-b474-efd34ae30eb0.png)
 
 </h1>
 
