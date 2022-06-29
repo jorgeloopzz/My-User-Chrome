@@ -4,3 +4,5 @@ user_pref("layout.css.color-mix.enabled", true);
 user_pref("browser.tabs.delayHidingAudioPlayingIconMS", 0);
 user_pref("layout.css.backdrop-filter.enabled", true);
 user_pref("widget.non-native-theme.scrollbar.style", 5);
+user_pref("layers.acceleration.force-enabled", true);
+user_pref("gfx.webrender.all", true);
