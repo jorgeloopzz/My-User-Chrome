@@ -14,17 +14,17 @@
 
 <h3 align="center">
 
-  ![firefox](https://user-images.githubusercontent.com/80071604/174143710-fd1211a5-67fe-4745-b474-efd34ae30eb0.png)
+  ![firefox](https://user-images.githubusercontent.com/80071604/177000197-da46b5dc-4799-401a-8881-a4ef3b18965c.png)
 
 </h1>
 
 ### Installation
   * Enable dark mode.
+  * Install <a href="https://www.nerdfonts.com/font-downloads">Caskaydia Cove Nerd Font</a>
   * Download the zip and extract it or `git clone https://github.com/jorgeloopzz/My-User-Chrome.git`.
   * Type `about:profiles` in URL bar and open the first Root Directory.
   * There should be a folder called `chrome`, if not, make it. With that, copy from my project everything except the license and readme to chrome.
   * To make effect, click on `Restart normally` in `about:profiles`.
-  * Install <a href="https://www.nerdfonts.com/font-downloads">Caskaydia Cove Nerd Font</a>
 
 <div align="center">
 
