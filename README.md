@@ -23,7 +23,7 @@
   * Install <a href="https://www.nerdfonts.com/font-downloads">Caskaydia Cove Nerd Font</a>
   * Download the zip and extract it or `git clone https://github.com/jorgeloopzz/My-User-Chrome.git`.
   * Type `about:profiles` in URL bar and open the first Root Directory.
-  * There should be a folder called `chrome`, if not, make it. With that, copy from my project everything except the license and readme to chrome.
+  * There should be a folder called `chrome`, if not, make it. With that, copy from my project everything to chrome except the `user.js` that shoul be in the Root Directory.
   * To make effect, click on `Restart normally` in `about:profiles`.
 
 <div align="center">
