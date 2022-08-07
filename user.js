@@ -19,3 +19,6 @@ user_pref("network.dns.disablePrefetch", true);
 user_pref("network.prefetch-next", false);
 user_pref("webgl.disabled", true);
 user_pref("dom.event.clipboardevents.enabled", false);
+
+// Disable PiP
+user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
