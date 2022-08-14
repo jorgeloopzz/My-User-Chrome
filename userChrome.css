@@ -98,6 +98,10 @@
 	opacity: 0 !important;
 }
 
+/* Change URL font */
+#urlbar, #searchbar .searchbar-textbox	{
+font-family: CaskaydiaCove Nerd Font !important; }
+
 /* 
 -- Arrow icons --
 */
