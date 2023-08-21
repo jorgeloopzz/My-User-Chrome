@@ -8,7 +8,7 @@
 
 ![firefox](https://user-images.githubusercontent.com/80071604/177000197-da46b5dc-4799-401a-8881-a4ef3b18965c.png)
 
-</h1>
+</h3>
 
 ## ⬇️ Installation
 
