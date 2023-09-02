@@ -95,12 +95,14 @@
 /* Remove placeholder */
 #urlbar-input::placeholder,
 .searchbar-textbox::placeholder {
-	opacity: 0 !important;
+  opacity: 0 !important;
 }
 
 /* Change URL font */
-#urlbar, #searchbar .searchbar-textbox	{
-font-family: CaskaydiaCove Nerd Font !important; }
+#urlbar,
+#searchbar .searchbar-textbox {
+  font-family: CaskaydiaCove Nerd Font !important;
+}
 
 /* 
 -- Arrow icons --
@@ -115,6 +117,7 @@ font-family: CaskaydiaCove Nerd Font !important; }
 #back-button:hover image {
   background: none !important;
 }
+
 /* forward - go button */
 #forward-button image {
   list-style-image: url("icons/forward.svg") !important;
@@ -129,12 +132,7 @@ font-family: CaskaydiaCove Nerd Font !important; }
  -- Remove elements --
 */
 
-.tab-close-button,
 #context-pocket,
-#context-selectall,
-#tracking-protection-icon-container,
-#PanelUI-button,
-#tabs-newtab-button,
 #context-navigation {
   display: none;
 }
