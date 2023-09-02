@@ -12,18 +12,13 @@
 /* New tab page */
 @-moz-document url('about:home'), url('about:newtab'), url('about:privatebrowsing') {
   body {
-    background-image: url('https://raw.githubusercontent.com/jorgeloopzz/Wallpapers/main/0182.jpg');
-  }
-
-  .logo-and-wordmark .logo {
-    display: inline-block !important;
+    background-image: url("https://raw.githubusercontent.com/jorgeloopzz/Wallpapers/main/0182.jpg");
   }
 
   .logo {
-    background: url("icons/foxlogo.svg") no-repeat !important;
-    background-size: cover !important;
-    height: 80px !important;
-    width: 80px !important;
+    background: url("https://raw.githubusercontent.com/jorgeloopzz/My-User-Chrome/master/icons/firefox.png")
+      no-repeat center !important;
+    background-size: 65px !important;
   }
 
   /* Remove search bar */
