@@ -30,3 +30,7 @@
   <img src="https://img.shields.io/badge/Firefox-userChrome-red?style=for-the-badge&logo=firefox">
   <img src="https://img.shields.io/badge/License-Unlicensed-blue?style=for-the-badge&logo=github">
 </div>
+
+
+<p align="center"><img src="https://img.shields.io/github/license/jorgeloopzz/My-User-Chrome?style=flat-square&logo=github&label=License&labelColor=%23181717&color=f4b8e4"/></p>
+
