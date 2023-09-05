@@ -70,7 +70,7 @@
 }
 
 #urlbar-input-container {
-  background-color: var(--sfsecondary) !important;
+  background-color: var(--sfwindow) !important;
   border: 1px solid rgba(0, 0, 0, 0) !important;
 }
 
@@ -85,11 +85,6 @@
 /* Remove url bar panel */
 .urlbarView {
   display: none !important;
-}
-
-/* Remove magnifying glass icon */
-#identity-box {
-  visibility: collapse !important;
 }
 
 /* Remove placeholder */
@@ -121,7 +116,6 @@
 /* forward - go button */
 #forward-button image {
   list-style-image: url("icons/forward.svg") !important;
-  padding-inline-start: 5px !important;
 }
 
 #forward-button:hover image {
