@@ -48,6 +48,7 @@
   box-shadow: none !important;
 }
 
+/* Style tabs */
 .tab-label {
   text-shadow: none !important;
   font-family: CaskaydiaCove Nerd Font;
@@ -55,6 +56,7 @@
   font-size: small;
 }
 
+/* Disbale tabs borders */
 .tab-background {
   border-radius: 0 0 !important;
   margin: 0px !important;
@@ -103,8 +105,6 @@
 -- Arrow icons --
 */
 
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-
 #back-button image {
   list-style-image: url("icons/back.svg") !important;
 }
@@ -122,11 +122,3 @@
   background: none !important;
 }
 
-/*
- -- Remove elements --
-*/
-
-#context-pocket,
-#context-navigation {
-  display: none;
-}
