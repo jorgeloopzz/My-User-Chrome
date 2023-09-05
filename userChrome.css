@@ -3,8 +3,8 @@
 */
 
 :root {
-  --sfwindow: #0c0c0d;
-  --sfsecondary: #2a2a2e;
+  --sfwindow: #11111b;
+  --sfsecondary: #24273a;
 
   /* Window colors  */
   --toolbar-bgcolor: var(--sfsecondary) !important;
