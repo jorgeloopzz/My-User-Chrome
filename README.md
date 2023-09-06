@@ -17,7 +17,7 @@
 
   > 👁️ See [how to install](https://github.com/jorgeloopzz/dotfiles/wiki/Fonts#%EF%B8%8F-installation) Nerd Fonts.
 
-- [Download the zip](https://github.com/jorgeloopzz/My-User-Chrome/archive/refs/heads/master.zip) and extract it or `git clone https://github.com/jorgeloopzz/My-User-Chrome.git`.
+- [Download project zip](https://github.com/jorgeloopzz/My-User-Chrome/archive/refs/heads/master.zip) and extract it or `git clone https://github.com/jorgeloopzz/My-User-Chrome.git`.
 - Type `about:profiles` in URL bar and open the first Root Directory.
 - There should be a folder called **_chrome_**, if not, make it. With that, copy from my project everything to it except the **_user.js_** that should be in the Root Directory.
 - To make effect, click on `Restart normally` in `about:profiles`.
