@@ -1,8 +1,6 @@
-<h1 align="center">
-  <i>
-    · My user chrome ·
-  </i>
-</h1>
+<p align="center">
+  <img src="https://logodownload.org/wp-content/uploads/2019/11/firefox-logo.png" width=500>
+</p>
 
 <h3 align="center">
 
