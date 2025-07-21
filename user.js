@@ -12,7 +12,7 @@ user_pref("extensions.unifiedExtensions.enabled", true);
 
 /*
  * Additional settings I use in my user.js. Not necessary for customization.
- * Don't uncomment if you don't know what they do. Also I don't recommend it.
+ * Don't uncomment if you don't know what they do, I don't recommend it either.
 
 // Privacy settings
 user_pref("media.peerconnection.enabled", false);
